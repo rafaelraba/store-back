@@ -3,7 +3,7 @@ import { Entity, PrimaryGeneratedColumn, Column } from "typeorm";
 export class InventariosModelo {
 
     @PrimaryGeneratedColumn()
-    cod_Inventario:number;
+    Inventario_id:number;
 
     @Column()
     descripcion:Date;
@@ -24,6 +24,6 @@ export class InventariosModelo {
     fecha_Salida:string;
 
     @Column()
-    cod_Empleado:number;
+    employee_id:number;
 
 }
